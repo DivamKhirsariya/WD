@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML Form</title>
+</head>
+<body>
+
+    <h2>Advanced Form Example</h2>
+    <form action="/submit_form" method="post" enctype="multipart/form-data">
+
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <label for="birthday">Birthday:</label><br>
+        <input type="date" id="birthday" name="birthday"><br><br>
+
+        <label for="profilePicture">Profile Picture:</label><br>
+        <input type="file" id="profilePicture" name="profilePicture"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
