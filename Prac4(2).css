@@ -1,0 +1,22 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px;
+    transition: transform 2s;
+}
+
+.box:hover {
+    transform: rotate(45deg) scale(1.5);
+}
+
+.text {
+    font-size: 24px;
+    text-shadow: 2px 2px 5px #FF0000;
+}
+
+.gradient {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, red, yellow);
+}
