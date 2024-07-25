@@ -1,0 +1,46 @@
+.relative-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    margin: 20px auto;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    z-index: 1;
+}
+
+.absolute-box-top {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    z-index: 2;
+}
+
+.absolute-box-bottom {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 200px;
+    height: 200px;
+    background-color: lightyellow;
+    z-index: 0;
+}
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
